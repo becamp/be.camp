@@ -15,7 +15,7 @@
       </div>
       <div class="tac register">
         <a
-          href="https://airtable.com/shr8pscmdKHqKEBBN"
+          href="EVENTBRITE_LINIK"
           target="_blank" rel="noopener"
         >
           <button>Register Now</button>

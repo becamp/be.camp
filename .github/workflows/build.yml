@@ -27,3 +27,7 @@ jobs:
       env:
         AIRTABLEKEY: ${{ secrets.AIRTABLEKEY }}
         BUTTERKEY: ${{ secrets.BUTTERKEY }}
+    - name: Move files
+      run: |
+        mkdir -p docs
+        mv dist/* docs

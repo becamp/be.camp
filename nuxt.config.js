@@ -67,7 +67,15 @@ module.exports = {
     '@nuxtjs/sitemap',
     '@nuxtjs/google-analytics',
     '@nuxtjs/pwa',
+    '@nuxt/image',
   ],
+  target: 'static',
+  image: {
+    domains: ['v5.airtableusercontent.com'],
+    staticFilename: '[publicPath]/images/[hash][ext]',
+    provider: 'static',
+    dir: '_nuxt/images'
+  },
   styleResources: {
     scss: [
       './assets/sass/global.scss'

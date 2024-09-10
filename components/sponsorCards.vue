@@ -14,16 +14,20 @@
               rel="noopener"
               :name="`${sponsor.sponsor} logo website link`"
             >
-              <img
-                v-lazy="getSponsorLogo(sponsor)"
-                :alt="`sponsor ${sponsor.sponsor}`"
+              <nuxt-img
+                provider="static"
+                :src="getSponsorLogo(sponsor)"
+                format="png"
+                loading="lazy"
               />
             </a>
           </template>
           <template v-else>
-            <img
-              v-lazy="getSponsorLogo(sponsor)"
-              :alt="`sponsor ${sponsor.sponsor}`"
+            <nuxt-img
+              provider="static"
+              :src="getSponsorLogo(sponsor)"
+              format="png"
+              loading="lazy"
             />
           </template>
         </div>
@@ -67,7 +71,8 @@ export default {
   },
   methods: {
     getSponsorLogo(sponsor) {
-      return sponsor.logo[0].thumbnails.large.url
+      const imgUrl = sponsor.logo[0].thumbnails.large.url
+      return imgUrl
     }
   }
 }

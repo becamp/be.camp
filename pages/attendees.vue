@@ -15,10 +15,10 @@
       </div>
       <div class="tac register">
         <a
-          href="EVENTBRITE_LINIK"
+          href="#"
           target="_blank" rel="noopener"
         >
-          <button>Register Now</button>
+          <button>Opening Soon</button>
         </a>
       </div>
     </page-hero>

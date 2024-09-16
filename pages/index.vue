@@ -16,10 +16,10 @@
           <div v-html="setAttendeeCount(page.homepage_hero_content)"></div>
           <!-- Wondering where this is? Go to "Guests" in the forked Airtable Base and change the "Grid view" to the form's view. -->
           <a
-            href="#"
+            href="https://airtable.com/applbJgB5JNe73ode/shrjsi9TQbUSHex8u"
             target="_blank" rel="noopener"
           >
-            <button>Opening Soon</button>
+            <button>Register</button>
           </a>
         </div>
 
@@ -92,7 +92,7 @@
           href="#"
           target="_blank" rel="noopener"
         >
-          <button>Opening Soon</button>
+          <button>Register</button>
         </a>
         <div class="wysiwyg-block">
           <div v-html="page.safe_inclusive_accessible"></div>

@@ -87,7 +87,7 @@
 
       <div class="cta">
         <h2>Let us know you're attending!</h2>
-        <p>It's quick and easy, and guarantees we get your shirt size correct.</p>
+        <p>It's quick and easy.</p>
         <a
           href="#"
           target="_blank" rel="noopener"

@@ -15,10 +15,10 @@
       </div>
       <div class="tac register">
         <a
-          href="EVENTBRITE_LINIK"
+          href="https://airtable.com/applbJgB5JNe73ode/shrjsi9TQbUSHex8u"
           target="_blank" rel="noopener"
         >
-          <button>Register Now</button>
+          <button>Register</button>
         </a>
       </div>
     </page-hero>

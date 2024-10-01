@@ -12,8 +12,11 @@
           rel="noopener"
           :name="`${sponsor.sponsor} website link`"
         >
-          <img
-            v-lazy="getSponsorLogo(sponsor)"
+          <nuxt-img
+            provider="static"
+            :src="getSponsorLogo(sponsor)"
+            format="png"
+            loading="lazy"
             :alt="`sponsor ${sponsor.sponsor}`"
           />
         </a>

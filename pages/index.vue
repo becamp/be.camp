@@ -16,10 +16,10 @@
           <div v-html="setAttendeeCount(page.homepage_hero_content)"></div>
           <!-- Wondering where this is? Go to "Guests" in the forked Airtable Base and change the "Grid view" to the form's view. -->
           <a
-            href="EVENTBRITE_LINIK"
+            href="https://airtable.com/applbJgB5JNe73ode/shrjsi9TQbUSHex8u"
             target="_blank" rel="noopener"
           >
-            <button>Register Now</button>
+            <button>Register</button>
           </a>
         </div>
 
@@ -87,12 +87,12 @@
 
       <div class="cta">
         <h2>Let us know you're attending!</h2>
-        <p>It's quick and easy, and guarantees we get your shirt size correct.</p>
+        <p>It's quick and easy.</p>
         <a
-          href="EVENTBRITE_LINIK"
+          href="#"
           target="_blank" rel="noopener"
         >
-          <button>Register Now</button>
+          <button>Register</button>
         </a>
         <div class="wysiwyg-block">
           <div v-html="page.safe_inclusive_accessible"></div>

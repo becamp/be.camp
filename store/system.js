@@ -27,6 +27,10 @@ export const state = () => ({
       name: 'History',
       route: '/history'
     },
+    {
+      name: 'Attendees',
+      route: '/attendees'
+    }
   ]
 })
 

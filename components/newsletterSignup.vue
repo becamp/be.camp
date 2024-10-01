@@ -1,5 +1,5 @@
 <template>
-  <div class="page-section newsletter-signup-form">
+  <!-- <div class="page-section newsletter-signup-form">
     <h2 id="newsletter-header">Join the beCamp newsletter!</h2>
     <h3 class="light">Get the latest news and notifications about beCamp/beSwarm.</h3>
     <div id="mc_embed_signup">
@@ -9,8 +9,8 @@
         <div class="clear"><input type="submit" :value="buttonLabel" name="subscribe" id="mc-embedded-subscribe" class="button narrow"></div>
       </form>
     </div>
-    <!--End mc_embed_signup-->
-  </div>
+  </div> -->
+  <div></div>
 </template>
 
 <script>
